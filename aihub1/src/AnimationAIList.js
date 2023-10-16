@@ -12,6 +12,7 @@ const AnimationAIList = ({search}) => {
     return (
         <div>
         <h3 className='listHeading'>ANIMATION RELATED AI TOOLS</h3>
+        <div className='ul'>
         <ul>
         {
       search ? 
@@ -27,6 +28,7 @@ const AnimationAIList = ({search}) => {
               )
     }
         </ul>
+        </div>
         </div>
         )
         }

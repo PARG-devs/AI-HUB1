@@ -17,8 +17,9 @@ const AIList = ({search}) => {
                 ]
                 const a=openAI.filter((singleAI)=>(singleAI.name.toLowerCase().includes(search.toLowerCase())))
   return (
-    <div>
+      <div>
         <h3 className='listHeading'>OPEN AI AND TEXT AI TOOLS</h3>
+        <div className='ul'>
         <ul>
         {
       search ? 
@@ -34,6 +35,7 @@ const AIList = ({search}) => {
               )
     }
         </ul>
+        </div>
     </div>
   )
 }

@@ -6,6 +6,7 @@ const StoryAIList = ({search}) => {
     return (
         <div>
         <h3 className='listHeading'>STORY RELATED AI TOOLS</h3>
+        <div className='ul'>
         <ul>
         {
       search ? 
@@ -22,6 +23,7 @@ const StoryAIList = ({search}) => {
     }
         
         </ul>
+        </div>
         </div>
         )
         }
