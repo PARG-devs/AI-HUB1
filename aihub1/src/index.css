@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   margin: 0%;
- background-color: rgba(128, 128, 128, 0.735);
+ background-color: rgba(255, 235, 205, 0.331);
 }
 
 /* Interface Page*/
@@ -15,9 +15,15 @@
   justify-content: center;
   align-content: center;
 }
+.interface> video{
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+  object-fit: cover;
+}
 .textBg {
-  width: 220vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.632);
   position: fixed;
   top: 0rem;
@@ -100,7 +106,7 @@ header > h1{
   font-size: 450%;
   text-shadow: 0rem 0.1rem 0.3rem black;
   background-color: transparent;
-  color: whitesmoke;
+  color: white;
   animation-name: fade;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -136,7 +142,7 @@ header > h1:hover{
   height: 70%;
   font-weight: bold;
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
   animation-name: fade;
   animation-duration: 2s;
   animation-timing-function: ease-in;
@@ -145,13 +151,14 @@ header > h1:hover{
   animation-fill-mode: backwards;
 }
 .headerLink:hover{
+  cursor: pointer;
   font-weight: bold;
   font-size: 110%;
   text-shadow: 0rem 0.2rem 0.3rem white ;
 }
 @keyframes fade {
   0%{
-    color: rgba(255, 255, 255, 0.158);
+    color: transparent;
   }
   25%{
     color: rgba(255, 255, 255, 0.272);
@@ -179,8 +186,8 @@ header > h1:hover{
   width: 20%;
   font-size: 98%;
   position: relative;
-  top: -0.2rem;
-  color: rgba(255, 255, 255, 0.881);
+  top: -9%;
+  color: white;
 }
 /* Header session */
 
@@ -190,28 +197,37 @@ header > h1:hover{
   border-radius: 1rem;
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
   padding: 0rem 1rem 1rem 1rem;
-  width: 100vh;
-  height: 65vh;
+  width: 50%;
+  height: 70%;
   position: fixed;
-  left: 20rem;
-  top: 5rem;
+  left: 26%;
+  top: 15%;
+  display: flex;
+  flex-flow: column;
+  gap: 4%;
 }
-.About > p{
+.aboutanimae2{
   background-color: transparent;
   margin: 0rem 0.5rem 0.5rem 0.5rem;
-  font-size: 120%;
+  font-size: 110%;
   text-transform: capitalize;
-  display: flex;
-  gap: 1rem;
+  height: auto;
+  width: auto;
+}
+.aboutTop> h1{
+  height:20%;
 }
 .aboutTop{
   background-color: transparent;
   margin: 2rem 0.5rem 0rem 0.5rem;
-  font-size: 150%;
+  font-size: 200%;
   display: flex;
+  height: 18%;
 }
 .aboutTop > svg{
   background-color: transparent;
+  width: 12%;
+  height: 40%;
 }
 .aboutTop :hover{
   color: red;
@@ -223,15 +239,20 @@ header > h1:hover{
   font-size: 120%;
   background-color: transparent;
   font-weight: bold;
+  width: 43%;
 }
 a{
   background-color: transparent;
   text-decoration: none;
+  text-align: center;
+  
 }
 .aboutContact{
   display: flex;
-  gap: 1rem;
+  gap: 5%;
   align-items: center;
+  align-content: center;
+  height: 20%;
 }
 .aboutTop > h1{
   background-color: transparent;
@@ -252,20 +273,23 @@ a{
   }
   .aboutanimae{
   margin: 0rem 0.5rem 0.5rem 0.5rem;
-  font-size: 120%;
+  font-size: 110%;
   text-transform: capitalize;
   display: flex;
   flex-flow: column;
   gap: 1rem;
-  width: 35rem;
+  width: 98%;
   overflow-x: scroll;
   background-color: transparent;
   
   }
   .aboutScroll{
-    width: 35rem;
-  height: 20rem;
+  width: 98%;
+  height: 10%;
   background-color: transparent;
+  display: flex;
+  flex-flow: column;
+  gap: 10%;
   }
   .aboutanimae2{
   animation-name: about2;
@@ -294,17 +318,22 @@ a{
   margin:0rem;
   display:flex;
   flex-flow:column;
-  gap:1rem;
+  gap:10%;
   align-items: center;
   align-content: center;
   justify-content: center;
   background-color:transparent;
-  font-size: 2.5rem;
-  height:21.5rem;
+  font-size: 250%;
+  height:50%;
+  margin-top: 3%;
 }
 .image>img{
-  height:6rem;
-  width:6rem;
+  height:60%;
+  width:20%;
+  margin-left: 6%;
+}
+.image>p{
+  margin-left: 20%;
 }
 .image>img,p{
   background-color:transparent;
@@ -314,50 +343,64 @@ a{
   border-radius: 1rem;
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
   padding: 0rem 1rem 1rem 1rem;
-  width: 100vh;
-  height: 68vh;
+  width: 50%;
+  height: 70%;
   position: fixed;
-  left: 20rem;
-  top: 5rem;
+  left: 26%;
+  top: 15%;
   display:flex;
   flex-flow:column;
-  gap:1rem;
+  gap: 5%;
 }
 .suggestion h2{
   background-color:transparent;
 }
 .form{
   background-color:transparent; 
+  display: flex;
+  flex-flow: column;
+  gap: 5%;
 }
-.form1 {
-  background-color:white;
-
-}
-.form1>input,textarea,button,label{
+.form1>input,label{
   background-color:white; 
 } 
+.form2>textarea,label{
+  background-color:white; 
+} 
+.form1{
+  display: flex;
+  align-items: center;
+}
 .label{
-  font-size:200%;
+  font-size:180%;
+  height: 80%;
+  width: 25%;
+  margin-left: 15%;
 }
 .input{
   font-size:120%;
+  height: 70%;
+  width: 45%;
+  margin-right: 10%;
+  margin-top: 0.8%;
+  border: 1px solid black;
+  border-radius: 1rem;
 }
-.suggestion > form{
+.form{
   display:flex;
   flex-flow: column;
-  gap:2rem;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  gap: 6%;
 }
 .form > button{
-  width:8rem;
-  height: 2rem;
+  width:15%;
+  height: 17%;
   border-radius: 2rem;
   background-color: #237ebe;
   color: white;
   border: none;
+  margin-left: 45%;
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
+  font-size: 120%;
 }
 .form > button:hover{
   background-color:rgba(3, 3, 102, 0.777);
@@ -365,26 +408,33 @@ a{
 }
 .form1{
   display:flex;
-  gap:1.3rem;
   border-radius: 0.3rem;
+  background-color:white;
+  height: 20%;
 }
-.form1 > textarea{
- width:25rem;
- height:10rem;
+.form2{
+  background-color: white;
+  height:80%;
+}
+.input2{
+ width:80%;
+ height:95%;
+ margin-left: 10%;
  border-radius: 0.3rem;
+ font-size: 150%;
 }
 /* Suggession page */
 
 /* Follow Page */
 .followPage{
-  width: 20%;
+  width: 11%;
   height:30%;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
   position: fixed;
   top: 60%;
-  left: 10%;
+  left: 5%;
   display: flex;
   flex-flow:column;
   align-items: left;
@@ -398,6 +448,7 @@ a{
   font-size: 110%;
 }
 /* Follow Page */
+
 /*contact*/
 .contact{
   background-color: white;
@@ -405,26 +456,27 @@ a{
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
   padding: 0rem 1rem 1rem 1rem;
   width: 50%;
-  height: 65vh;
+  height: 70%;
   position: fixed;
-  left: 20rem;
-  top: 5rem;
+  left: 26%;
+  top: 15%;
   display: flex;
   flex-flow: column;
-  gap:3rem;
+  gap:5%;
   align-items: center;
   align-items: center;
-  justify-content:2rem;
+  justify-content:center;
   font-size: 1.5rem;
 }
 .contactTop{
-  font-size: 130%;
+  font-size: 110%;
   display: flex;
-  gap: 4rem;
-  margin-left:5rem ;
+  width: 90%;
 }
 .contactTop > h1{
   flex-grow: 1;
+  margin-left: 22% ;
+  width: 20%;
 }
 .contactlogo2{
   margin-right:10.5rem;
@@ -457,11 +509,15 @@ a{
 .contactList > p{
   margin-bottom: 2rem;
 }
+.contactAnimation>a{
+  margin-top: 6%;
+  width: 20%;
+}
 .contactAnimation{
   z-index: -1;
   background-color: white;
   animation-name: noDisplay;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
@@ -503,7 +559,7 @@ a{
 }
 .search > input{
   width: 25%;
-  height: 85%;
+  height: 100%;
   border: none;
   border-radius: 0.4rem;
   background-color: rgba(255, 255, 255, 0.758);
@@ -513,7 +569,7 @@ a{
 }
 .searchSession{
   background-color: transparent;
-  height: 20%;
+  height: 5%;
 }
 /* Main page */
 .listHeading{
@@ -521,11 +577,12 @@ a{
   height: 3rem;
   padding: 1rem;
   color: white;
+  text-shadow: 0rem 0.1rem 0.3rem black;
 }
 .listHeading:hover{
   font-size: 220%;
-  color: white;
-  text-shadow: 0rem 0.1rem 0.3rem white;
+  color: whitesmoke;
+  text-shadow: 0rem 0.1rem 0.3rem black;
 }
 li{
   list-style: none;
@@ -557,9 +614,10 @@ ul::-webkit-scrollbar{
   padding: 0rem;
 }
 .aiButton>button:hover{
+  cursor: pointer;
   width: 7.5rem;
   height: 7.5rem;
-  box-shadow: 0rem 0.1rem 0.2rem white;
+  box-shadow: 0.2rem 0.3rem 0.2rem black;
 }
 .aiLogo{
   width: 7rem;
@@ -577,6 +635,7 @@ ul::-webkit-scrollbar{
 }
 .Main{
   width: 100%;
+  margin-top: 2%;
   display: flex;
   flex-flow: column;
   gap: 2rem;

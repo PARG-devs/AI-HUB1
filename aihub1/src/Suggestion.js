@@ -25,11 +25,11 @@ const Suggestion = ({navigate}) => {
                             id='Name' className="input"
                             />
                 </div>
-                <div className='form1'>
+                <div className='form2'>
                         <label htmlFor='Feedback'className="label" style={{position:"fixed",left:"10000px"}}>Feedback:</label>
                         <textarea type="text"
                         placeholder="Give Your Feedback"
-                        required className="input"
+                        required className="input2"
                         />
                 </div>
                 <button type='submit'>submit</button> 

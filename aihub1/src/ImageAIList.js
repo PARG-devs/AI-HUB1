@@ -15,6 +15,7 @@ const ImageAIList = ({search}) => {
 return (
 <div>
 <h3 className='listHeading'>IMAGE GENERATING AI TOOLS</h3>
+<div className='ul'>
 <ul>
 {
       search ? 
@@ -30,6 +31,7 @@ return (
               )
     }
 </ul>
+</div>
 </div>
 )
 }
