@@ -745,7 +745,7 @@ header > h1{
   position: absolute;
   top:87%;
   width:100% ;
-  left:-5%;
+  left:-3%;
 }
 .listHeading{
   font-size: 150%;
@@ -754,6 +754,8 @@ header > h1{
 .listHeading:hover{
   font-size:150%;
   color: whitesmoke;
-  text-shadow: 0rem 0rem 0rem transparent;
+  text-shadow: 0rem 0.1rem 0.3rem black;
 }
+.headerLink{
+  font-size: 80%;
 }
