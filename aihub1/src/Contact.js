@@ -12,14 +12,14 @@ const Contact = ({navigate}) => {
         <div className='contactBox'>
             <div className='contactList'>
                 <p className="aboutContact followContact contactAnimation">
-                    <img style={{width:'2rem',height:'2rem'}} src={require('./images/gmail-logo.png')}alt='gmail logo' width={10} height={10}px></img>
+                    <img src={require('./images/gmail-logo.png')}alt='gmail logo' width={10} height={10}px></img>
                     PARGdevelopers@gmail.com</p>
                 <p className='aboutContact contactlogo1 followContact contactAnimation'>
-                    <img style={{width:'2.5rem',height:'2.3rem'}} src={require('./images/instagram-logo.jpg')} alt='insta logo' width={10} height={10}px></img>
+                    <img src={require('./images/instagram-logo.jpg')} alt='insta logo' width={10} height={10}px></img>
                     <a href="https://www.instagram.com/parg_developers/">Instagram</a>
                 </p>
                 <p className="aboutContact contactlogo2 followContact contactAnimation">
-                    <img style={{width:'2rem',height:'2rem'}} src={require('./images/whatsapp-logo.png')} alt='whatsapp logo' width={10} height={10}px></img>
+                    <img src={require('./images/whatsapp-logo.png')} alt='whatsapp logo' width={10} height={10}px></img>
                     9790665224
                 </p>
             </div>

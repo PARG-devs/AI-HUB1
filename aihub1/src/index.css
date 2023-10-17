@@ -512,6 +512,10 @@ a{
   margin-top: 6%;
   width: 20%;
 }
+.contactAnimation>img{
+  width: 2rem;
+  height: 2rem;
+}
 .contactAnimation{
   z-index: -1;
   background-color: white;
@@ -912,4 +916,68 @@ a{
     top:-30%;
   }
 /* About page */
+/*contact*/
+.contact{
+  width: 78%;
+  height: 50%;
+  position: fixed;
+  left: 6%;
+  top: 20%;
+  gap: 0%;
+}
+.contactTop{
+  font-size: 130%;
+  display: flex;
+  height: 18%;
+  justify-content: left;
+}
+.contactTop > h1{
+  height:20%;
+  width: 200%;
+  font-size: 90%;
+  position: fixed;
+  top: 23%;
+  left: 0%;
+}
+.contactTop>svg{
+    width:40%;
+    height:40%;
+    position: relative;
+    left: 85%;
+    top:-50%;
+}
+.contactBox{
+  width:85%;
+  height: 80%;
+  position: relative;
+  left: 3%;
+}
+.contactlogo1>a{
+  margin-top: 0%;
+  margin-bottom:2%;
+  text-align: left;
+}
+.contactList{
+  width: 30rem;
+  height: 20rem;
+  background-color: transparent;
+ 
+}
+.contactList > p{
+  margin-bottom: 5%;
+  font-size: 60%;
+}
+.contactAnimation{
+  display: flex;
+  gap: 1%;
+}
+.contactAnimation>a{
+  margin-top: 6%;
+  width: 20%;
+}
+.contactAnimation > img{
+  width: 5%;
+  height: 60%;
+}
+
 }
