@@ -745,7 +745,7 @@ header > h1{
   position: absolute;
   top:87%;
   width:100% ;
-  left:-3%;
+  left:0%;
 }
 .listHeading{
   font-size: 150%;
