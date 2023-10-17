@@ -904,5 +904,12 @@ a{
   height: 10%;
   gap: 5%;
   }
+  .aboutTop1>svg{
+    width:40%;
+    height:40%;
+    position: relative;
+    left: 10%;
+    top:-30%;
+  }
 /* About page */
 }

@@ -5,7 +5,7 @@ const About = ({navigate}) => {
 
   return (
     <div className="About">
-        <span className='aboutTop'>
+        <span className='aboutTop aboutTop1'>
             <h1>ABOUT:</h1>
             <AiOutlineCloseCircle 
                 onClick={()=>navigate('/')}
