@@ -719,13 +719,23 @@ ul::-webkit-scrollbar{
 }
 @media screen and (max-device-width: 760px) and (orientation: portrait){
 header{
-  height: 30%;
+  height: 25%;
   width: 100%;
+  margin: 0rem;
 }
 header > h1{
-  font-size: 150%;
-  position: absolute;
+  font-size: 180%;
+  position:absolute;
   left: 20%;
-  top: 15%;
+  top:15%;
+}
+.searchSession{
+  position:absolute;
+  top:20%;
+}
+.headerButton{
+  position: absolute;
+  top: 23%;
+  width:100% ;
 }
 }
