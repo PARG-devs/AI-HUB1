@@ -21,7 +21,7 @@ const About = ({navigate}) => {
                     <p className='aboutanimae2'>this website is developed by 'PARG developing agencies'.</p>
                     <p className='aboutContact aboutanimae2'>
                         <span className='subheading'>Contact PARG: </span>
-                        <a className='aboutContact' href="https://www.instagram.com/parg_developers/">
+                        <a className='aboutContact aboutContact1' href="https://www.instagram.com/parg_developers/">
                             <img style={{width:'1.5rem',height:'1.5rem'}} src={require('./images/instagram-logo.jpg')} alt='successful submission' width={10} height={20}px></img>
                             Instagram
                         </a>

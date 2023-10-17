@@ -719,6 +719,7 @@ ul::-webkit-scrollbar{
     background-color:rgba(3, 3, 102, 0.777);
     color: white;
 }
+
 @media screen and (max-device-width: 760px) and (orientation: portrait){
 header{
   height: 25%;
@@ -766,7 +767,7 @@ header > h1{
 }
 /* Suggession page */
 .image{
-  font-size: 100%;
+  font-size: 110%;
   height:50%;
   margin-top: 3%;
 }
@@ -847,4 +848,61 @@ header > h1{
  font-size: 120%;
 }
 /* Suggession page */
+
+/* About page */
+.About{
+  width: 78%;
+  height: 50%;
+  position: fixed;
+  left: 6%;
+  top: 20%;
+  gap: 0%;
+}
+.aboutanimae2{
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  font-size: 80%;
+  height: auto;
+  width: auto;
+}
+.aboutTop> h1{
+  height:20%;
+  font-size: 100%;
+}
+.aboutTop{
+  background-color: transparent;
+  margin: 2rem 0.5rem 0rem 0.5rem;
+  font-size: 200%;
+  display: flex;
+  height: 18%;
+}
+.subheading{
+  font-size: 100%;
+  width: 93%;
+}
+a{
+  background-color: transparent;
+  text-decoration: none;  
+}
+.aboutContact{
+  display: flex;
+  gap: 0%;
+  align-items: center;
+  align-content: center;
+  height: 20%;
+}
+.aboutContact1{
+  margin-top: 5%;
+}
+  .aboutanimae{
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  font-size: 120%;
+  gap: 2%;
+  width: 98%;
+  }
+  .aboutScroll{
+  width: 98%;
+  height: 10%;
+  gap: 5%;
+  }
+/* About page */
 }
