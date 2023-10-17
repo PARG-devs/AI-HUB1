@@ -19,7 +19,8 @@ const Suggestion = ({navigate}) => {
             <form onSubmit={(e)=>handleSuggestion(e)} className="form">
                 <div className='form1'>
                     <label htmlFor='Name' className="label">Your Name:</label>
-                        <input type="text" 
+                        <input
+                            autoFocus 
                             placeholder='Name'
                             required
                             id='Name' className="input"
