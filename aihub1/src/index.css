@@ -732,10 +732,11 @@ header > h1{
   position:absolute;
   left: 20%;
   top:15%;
+  width:85%;
 }
 .searchSession{
   position:absolute;
-  top:-125%;
+  top:-85%;
   height: 180%;
   width: 150%;
   left: -10%;
@@ -744,8 +745,10 @@ header > h1{
   position: absolute;
   top:87%;
   width:100% ;
+  left:-8%;
 }
 .listHeading{
   font-size: 150%;
+  width: 80%;
 }
 }
