@@ -776,7 +776,8 @@ header > h1{
   margin-left: 6%;
 }
 .image>p{
-  margin-left: 4%;
+  margin-left: 0%;
+  width: 100%;
 }
 .image>img,p{
   background-color:transparent;
@@ -840,7 +841,7 @@ header > h1{
   margin-left: 30%;
 }
 .input2{
- width:80%;
+ width:88%;
  height:95%;
  margin-left: 5%;
  font-size: 120%;
