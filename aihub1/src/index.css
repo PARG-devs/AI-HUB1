@@ -730,13 +730,13 @@ header{
 header > h1{
   font-size: 190%;
   position:absolute;
-  left: 20%;
+  left:15%;
   top:15%;
-  width:85%;
+  width:65%;
 }
 .searchSession{
   position:absolute;
-  top:-85%;
+  top:-65%;
   height: 180%;
   width: 150%;
   left: -10%;
@@ -745,10 +745,15 @@ header > h1{
   position: absolute;
   top:87%;
   width:100% ;
-  left:-8%;
+  left:-5%;
 }
 .listHeading{
   font-size: 150%;
   width: 80%;
+}
+.listHeading:hover{
+  font-size:150%;
+  color: whitesmoke;
+  text-shadow: 0rem 0rem 0rem transparent;
 }
 }
