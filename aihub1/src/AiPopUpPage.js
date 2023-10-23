@@ -12,9 +12,7 @@ const AiPopUpPage = ({singleAI,settoggle}) => {
             />
         </span>
         <p>{singleAI.description}</p>
-        {/*  <div className='popupLogo'>
-            <img  alt='logo' src={require(`${path}`)}></img>
-        </div>*/}
+        
         <div className='visitLink'>
             <a href={singleAI.link} >Visit</a>
         </div>
