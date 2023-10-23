@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import {Link} from 'react-router-dom';
 
 const AiPopUpPage = ({singleAI,settoggle}) => {
     const path=singleAI.path
@@ -14,7 +15,7 @@ const AiPopUpPage = ({singleAI,settoggle}) => {
         <p>{singleAI.description}</p>
         
         <div className='visitLink'>
-            <a href={singleAI.link} >Visit</a>
+            <Link to={singleAI.link} >Visit</Link>
         </div>
     </div>
   )
