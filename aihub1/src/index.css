@@ -1028,6 +1028,8 @@ color: red;
 color: black;
 }
 .popupLogo{
+  height: 150%;
+  width: 200%;
   position: relative;
   top:-10%;
   left:-58%;
@@ -1041,6 +1043,6 @@ color: black;
   
 }
 .visitLink{
-height:8%;
+height:20%;
 }
 }
