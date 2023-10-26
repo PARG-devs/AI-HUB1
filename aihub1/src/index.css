@@ -76,10 +76,6 @@ header{
   height: 60%;
   position: relative;
 }
-/* header{
-  background-image: url(images/header-background.png);
-  background-size: cover;
-} */
 .Home::-webkit-scrollbar{
   width: 2px;
 }
@@ -599,9 +595,8 @@ li{
 }
 .ul{
   width: 100%;
-}
-.ul{
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 ul{
   display: flex;
