@@ -1,5 +1,4 @@
 import React, {useState } from 'react'
-import AiPopUpPage from './AiPopUpPage'
 const ListItems = ({singleAI}) => {
   const [toggle,settoggle]=useState(false)
   const path=singleAI.path
