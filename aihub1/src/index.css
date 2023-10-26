@@ -728,18 +728,19 @@ ul::-webkit-scrollbar{
 }
 
 /* Footer */
-footer{
+.footer{
   background-color: black;
   color: gray;
-  width: 100%;
+  width: 50%;
   height: 30%;
-  display: flex;
-  gap: 2%;
+  column-count: 2;
+  font-size: 100%;
 }
 .Footer{
   width:auto;
-  padding: 2%;
+  padding: 5%;
   height:auto;
+  break-inside: avoid;
 }
 .Footer>h3{
   height:20%;
@@ -750,6 +751,22 @@ footer{
 }
 .footerLink,.Footer>p,.Footer>a{
   margin-bottom: 2%;
+}
+.footLogo{
+  display: flex;
+  gap: 1%;
+  height: 20%;
+  margin-top: 2%;
+}
+.footLogo > svg{
+  width: 7%;
+  height: 7%;
+  color: white;
+}
+.footLogo>a{
+  text-align: left;
+  margin-top: 2.2%;
+  color: white;
 }
 /* Footer */
 
@@ -1092,25 +1109,31 @@ border-radius: 10%;
   background-color: black;
   color: gray;
   width: 100%;
-  height: 30%;
+  height: auto;
   column-count: 2;
   font-size: 80%;
 }
 .Footer{
   width:auto;
-  padding: 2%;
+  padding: 5%;
   height:auto;
   break-inside: avoid;
 }
-.Footer>h3{
-  height:20%;
+.footLogo{
+  display: flex;
+  gap: 1%;
+  height: 20%;
+  margin-top: 4%;
 }
-.footerLink,.Footer>p{
-  height:auto;
+.footLogo > svg{
+  width: 13%;
+  height: 13%;
   color: white;
 }
-.footerLink,.Footer>p,.Footer>a{
-  margin-bottom: 2%;
+.footLogo>a{
+  text-align: left;
+  margin-top: 1%;
+  color: white;
 }
 /* Footer */
 }

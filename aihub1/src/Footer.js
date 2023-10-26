@@ -1,5 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import { BiLogoInstagram } from "react-icons/bi";
+import { RiThreadsFill } from "react-icons/ri";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -19,7 +22,18 @@ const Footer = () => {
         </div>
         <div className='Footer'>
             <h3>Follow PARG DEVELOPERS</h3>
-            <a href="https://www.instagram.com/parg_developers/">Instagram</a>
+            <div className='footLogo'>
+                <BiLogoInstagram />
+                <a href="https://www.instagram.com/parg_developers/">Instagram</a>
+            </div>
+            <div className='footLogo'>
+                <RiThreadsFill />
+                <a href="https://www.instagram.com/parg_developers/">Threads</a>
+            </div>
+            <div className='footLogo'>
+                <FaXTwitter />
+                <a href="https://www.instagram.com/parg_developers/">Twitter</a>
+            </div>
         </div>
     </div>
   )
