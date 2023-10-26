@@ -990,9 +990,13 @@ a{
   top: 20%;
   gap: 5%;
 }
-.AiPopUp > p{
+.PopUpTop>h1{
+  height: 20%;
+}
+.popDesccript{
   font-size: 120%;
-  flex-grow: 1;
+  height: 40%;
+  overflow-y: scroll;
 }
 .PopUpTop{
   font-size: 130%;
@@ -1028,7 +1032,7 @@ border-radius: 10%;
   width: 40%;
   height:25%;
   position: fixed;
-  top: 28%;
+  top: 26.5%;
   left: 5%;
 }
 .followContact{

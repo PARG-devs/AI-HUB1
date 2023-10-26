@@ -11,7 +11,9 @@ const AiPopUpPage = ({singleAI,settoggle}) => {
                 onClick={()=>settoggle(false)}
             />
         </span>
-        <p>{singleAI.description}</p>
+        <div className='popDesccript'>
+            <p>{singleAI.description}</p>
+        </div>
         <div className='popupLogo'>
             <img alt='logo' src={require(`${path}`)}></img>
         </div>
