@@ -944,7 +944,7 @@ a{
   width:40%;
   height:40%;
   position: relative;
-  left: 70%;
+  left: 80%;
   top:-30%;
 }
 .contactBox{
@@ -954,7 +954,7 @@ a{
   left: 3%;
 }
 .contactlogo1>a{
-  margin-top: 0%;
+  margin-top: 10%;
   margin-bottom:2%;
   text-align: left;
 }
@@ -973,11 +973,11 @@ a{
   gap: 1%;
 }
 .contactAnimation>a{
-  margin-top: 6%;
+  margin-top: 10%;
   width: 20%;
 }
 .contactAnimation > img{
-  width: 5%;
+  width: 10%;
   height: 60%;
 }
 
@@ -995,7 +995,7 @@ a{
 }
 .popDescript{
   font-size: 120%;
-  height: 150%;
+  height: 180%;
   background-color: transparent;
   overflow-y: scroll;
 }
