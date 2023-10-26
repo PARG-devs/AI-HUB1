@@ -944,7 +944,7 @@ a{
   width:40%;
   height:40%;
   position: relative;
-  left: 10%;
+  left: 30%;
   top:-30%;
 }
 .contactBox{
@@ -988,7 +988,7 @@ a{
   position: fixed;
   left: 6%;
   top: 20%;
-  gap: 0%;
+  gap: 5%;
 }
 .AiPopUp > p{
   font-size: 110%;
@@ -1000,10 +1000,10 @@ a{
   justify-content: left;
 }
 .PopUpTop > svg{
-  width:50%;
-  height:50%;
+  width:60%;
+  height:60%;
   position: relative;
-  left: 8%;
+  left: 9%;
   top:-25%;
 }
 .popupLogo{
