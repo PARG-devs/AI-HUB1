@@ -995,7 +995,8 @@ a{
 }
 .popDesccript{
   font-size: 120%;
-  height: 40%;
+  height: 90%;
+  background-color: transparent;
   overflow-y: scroll;
 }
 .PopUpTop{
