@@ -13,7 +13,7 @@ const Contact = ({navigate}) => {
             <div className='contactList'>
                 <p className="aboutContact followContact contactAnimation">
                     <img src={require('./images/gmail-logo.png')}alt='gmail logo' width={10} height={10}px></img>
-                    PARGdevelopers@gmail.com</p>
+                    pargdevelopers@gmail.com</p>
                 <p className='aboutContact contactlogo1 followContact contactAnimation'>
                     <img src={require('./images/instagram-logo.jpg')} alt='insta logo' width={10} height={10}px></img>
                     <a href="https://www.instagram.com/parg_developers/">Instagram</a>

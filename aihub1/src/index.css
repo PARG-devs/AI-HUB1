@@ -514,6 +514,7 @@ a{
 .contactAnimation>img{
   width: 2rem;
   height: 2rem;
+  background-color: white;
 }
 .contactAnimation{
   z-index: -1;
@@ -637,10 +638,12 @@ ul::-webkit-scrollbar{
 }
 .Main{
   width: 100%;
+  height: auto;
   margin-top: 2%;
   display: flex;
   flex-flow: column;
   gap: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.516);
 }
 /* Main page */
 
@@ -723,6 +726,32 @@ ul::-webkit-scrollbar{
     background-color:rgba(3, 3, 102, 0.777);
     color: white;
 }
+
+/* Footer */
+footer{
+  background-color: black;
+  color: gray;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  gap: 2%;
+}
+.Footer{
+  width:auto;
+  padding: 2%;
+  height:auto;
+}
+.Footer>h3{
+  height:20%;
+}
+.footerLink,.Footer>p{
+  height:auto;
+  color: white;
+}
+.footerLink,.Footer>p,.Footer>a{
+  margin-bottom: 2%;
+}
+/* Footer */
 
 @media screen and (max-device-width: 760px) and (orientation: portrait){
 /* Interface Page*/
@@ -1057,4 +1086,31 @@ border-radius: 10%;
   gap: 5%;
 }
 /* Follow Page */
+
+/* Footer */
+.footer{
+  background-color: black;
+  color: gray;
+  width: 100%;
+  height: 30%;
+  column-count: 2;
+  font-size: 80%;
+}
+.Footer{
+  width:auto;
+  padding: 2%;
+  height:auto;
+  break-inside: avoid;
+}
+.Footer>h3{
+  height:20%;
+}
+.footerLink,.Footer>p{
+  height:auto;
+  color: white;
+}
+.footerLink,.Footer>p,.Footer>a{
+  margin-bottom: 2%;
+}
+/* Footer */
 }
