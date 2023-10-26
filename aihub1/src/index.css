@@ -603,6 +603,7 @@ ul{
   flex-flow: row;
   width: auto;
   gap: 2rem; 
+  margin-bottom: 2rem;
 }
 ul::-webkit-scrollbar{
   overflow: hidden;
@@ -642,7 +643,6 @@ ul::-webkit-scrollbar{
   margin-top: 2%;
   display: flex;
   flex-flow: column;
-  gap: 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.516);
 }
 /* Main page */
