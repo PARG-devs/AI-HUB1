@@ -756,7 +756,7 @@ ul::-webkit-scrollbar{
   display: flex;
   gap: 1%;
   height: 20%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 .footLogo > svg{
   width: 7%;
@@ -765,7 +765,7 @@ ul::-webkit-scrollbar{
 }
 .footLogo>a{
   text-align: left;
-  margin-top: 2.2%;
+  margin-top: 0.6%;
   color: white;
 }
 /* Footer */
