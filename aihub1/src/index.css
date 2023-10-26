@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   margin: 0%;
- background-color: rgba(255, 235, 205, 0.331);
+ background-color: black;
 }
 
 /* Interface Page*/
@@ -65,10 +65,9 @@
   overflow-x: hidden;
 }
 .headerVideo{
-  width: 98.5%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 1rem;
   box-shadow: 0rem 0.1rem 0.2rem rgb(18, 17, 17);
 }
 header{
@@ -579,13 +578,13 @@ a{
   font-size: 200%;
   height: 3rem;
   padding: 1rem;
-  color: white;
+  color: red;
   text-shadow: 0rem 0.1rem 0.3rem black;
 }
 .listHeading:hover{
   font-size: 220%;
-  color: whitesmoke;
-  text-shadow: 0rem 0.1rem 0.3rem black;
+  color: red;
+  text-shadow: 0rem 0.1rem 0.3rem orange;
 }
 li{
   list-style: none;
@@ -613,14 +612,14 @@ ul::-webkit-scrollbar{
   height: 7rem;
   border: none;
   border-radius: 1rem;
-  box-shadow: 0rem 0.1rem 0.3rem rgb(18, 17, 17);
+  box-shadow: 0rem 0.1rem 0.3rem rgb(251, 250, 250);
   padding: 0rem;
 }
 .aiButton>button:hover{
   cursor: pointer;
   width: 7.5rem;
   height: 7.5rem;
-  box-shadow: 0.2rem 0.3rem 0.2rem black;
+  box-shadow: 0.2rem 0.3rem 0.2rem rgb(255, 255, 255);
 }
 .aiLogo{
   width: 7rem;

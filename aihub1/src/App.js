@@ -10,7 +10,7 @@ function App() {
   const navigate=useNavigate()
   const [search,setsearch]=useState('')
   const [search2,setsearch2]=useState('')
-  const [switchToggle,setswitchToggle]=useState(true)
+  const [switchToggle,setswitchToggle]=useState(false)
   return (
     <div className="App">
       {switchToggle ? ( 

@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {Link} from 'react-router-dom';
 import Folow from './Folow';
 import Search from "./Search";
-import headBg from './video/headBg.mp4'
+import headBg from './video/BotTyping.mp4'
 
 const Header = ({search,setsearch,search2,setsearch2}) => {
   const [followToggle,setfollowToggle]=useState(false)

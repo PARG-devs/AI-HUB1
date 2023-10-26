@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from './video/BotTyping.mp4'
+import bgImage from './video/headBg.mp4'
 import bgImage1 from './video/blue.mp4'
 
 const Interface = ({setSwitchtoggel}) => {
