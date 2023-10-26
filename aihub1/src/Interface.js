@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from './video/BotTyping.mp4'
+import bgImage from './video/BotTyping1.mp4'
 
 const Interface = ({setSwitchtoggel}) => {
   const random = Math.floor(Math.random()*2)
