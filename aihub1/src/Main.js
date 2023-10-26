@@ -23,7 +23,6 @@ const Main = ({search2,search}) => {
                         <VideoAIList search={search} />
                         <VoiceAIList search={search}  />
                         <AnimationAIList search={search} />
-                        <StoryAIList search={search} />
                     </>
                   )}
     </div>
