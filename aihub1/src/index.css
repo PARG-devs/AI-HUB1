@@ -1018,8 +1018,18 @@ a{
 border-radius: 10%;
 }
 .visitLink> a{
-  width:20%;
-  height: 10%;
+  width:40%;
+  height: 30%;
 }
 /* Popup Page */
+
+/* Follow Page */
+.followPage{
+  width: 40%;
+  height:30%;
+  position: fixed;
+  top: 25%;
+  left: 5%;
+}
+/* Follow Page */
 }
