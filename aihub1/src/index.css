@@ -730,15 +730,15 @@ ul::-webkit-scrollbar{
     width: 30%;
     height: 8%;
     position: fixed;
-    top: 55%;
+    top: 50%;
     left: 35%;
 }
 .textBg > p{
-  font-size: 200%;
+  font-size: 250%;
   width: 90%;
-  padding: 5%;
+  padding: 3%;
   position: fixed;
-  top: 28%;
+  top: 30%;
   left: 0%;
 }
 /* Interface Page*/
