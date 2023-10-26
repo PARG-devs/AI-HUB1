@@ -992,6 +992,7 @@ a{
 }
 .AiPopUp > p{
   font-size: 110%;
+  flex-grow: 0.8;
 }
 .PopUpTop{
   font-size: 130%;
@@ -1003,7 +1004,7 @@ a{
   width:60%;
   height:60%;
   position: relative;
-  left: 9%;
+  left: 15%;
   top:-25%;
 }
 .popupLogo{
