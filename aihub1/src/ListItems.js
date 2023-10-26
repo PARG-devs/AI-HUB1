@@ -5,10 +5,7 @@ const ListItems = ({singleAI}) => {
   const path=singleAI.path
   return (
     <div className='singleAIButton'>
-      {toggle? <AiPopUpPage 
-                  singleAI={singleAI} 
-                  settoggle={settoggle}      
-               /> 
+      {toggle? ''
       : ''}
         <li className='aiButton'>
           <button
