@@ -659,7 +659,7 @@ ul::-webkit-scrollbar{
     flex-flow: column;
     gap: 1rem;
   }
-.AiPopUp > p{
+.popDescript{
     flex-grow: 0.5;
     background-color: transparent;
     margin: 0rem 0.5rem 0rem 0.5rem;
@@ -993,9 +993,9 @@ a{
 .PopUpTop>h1{
   height: 20%;
 }
-.popDesccript{
+.popDescript{
   font-size: 120%;
-  height: 90%;
+  height: 150%;
   background-color: transparent;
   overflow-y: scroll;
 }

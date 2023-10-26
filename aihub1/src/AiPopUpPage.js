@@ -11,7 +11,7 @@ const AiPopUpPage = ({singleAI,settoggle}) => {
                 onClick={()=>settoggle(false)}
             />
         </span>
-        <div className='popDesccript'>
+        <div className='popDescript'>
             <p>{singleAI.description}</p>
         </div>
         <div className='popupLogo'>
