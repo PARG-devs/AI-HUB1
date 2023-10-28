@@ -8,9 +8,11 @@ const Interface = ({setSwitchtoggel}) => {
       {random === 1 ? 
           <video autoPlay loop muted className='bgVideo'>
             <source src={bgImage} type='video/mp4' />
+            Loading...
           </video> :
           <video autoPlay loop muted className='bgVideo'>
             <source src={bgImage} type='video/mp4' />
+            Loading...
           </video>
       }
       <div className='textBg'>
