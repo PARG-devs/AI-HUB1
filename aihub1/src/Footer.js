@@ -28,11 +28,11 @@ const Footer = () => {
             </div>
             <div className='footLogo'>
                 <RiThreadsFill />
-                <a href="https://www.instagram.com/parg_developers/">Threads</a>
+                <a href="https://www.threads.net/@parg_developers">Threads</a>
             </div>
             <div className='footLogo'>
                 <FaXTwitter />
-                <a href="https://www.instagram.com/parg_developers/">Twitter</a>
+                <a href="https://x.com/parg_developers?t=9Z-pMGFdLYEqh2P_LJY9wA&s=08">Twitter</a>
             </div>
         </div>
     </div>
