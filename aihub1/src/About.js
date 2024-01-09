@@ -18,10 +18,10 @@ const About = ({navigate}) => {
                     You Can Use These Tools For Your Projects.We covered all AI tools available for commercial use.If we missed any AI tool or If you have 
                     any suggestions and feedback,feel free to inform us via "SUGGESTIONS".</p>
                     <p className='aboutanimae2'><span className='subheading'>NOTE:</span> you can find "SUGGESTIONS" tab in the home page.</p>
-                    <p className='aboutanimae2'>this website is developed by 'PARG developing agencies'.</p>
+                    <p className='aboutanimae2'>this website is developed by 'AG developing agencies'.</p>
                     <p className='aboutContact aboutanimae2'>
-                        <span className='subheading'>Contact PARG: </span>
-                        <a className='aboutContact aboutContact1' href="https://www.instagram.com/parg_developers/">
+                        <span className='subheading'>Contact AG: </span>
+                        <a className='aboutContact aboutContact1' href="https://www.instagram.com/agdevops?igsh=eGM0MGYzcXN6c2Jj">
                             <img style={{width:'1.5rem',height:'1.5rem'}} src={require('./images/instagram-logo.jpg')} alt='successful submission' width={10} height={20}px></img>
                             Instagram
                         </a>

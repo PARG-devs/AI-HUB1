@@ -13,26 +13,22 @@ const Footer = () => {
         </div>
         <div className='Footer'>
             <h3>Organisations</h3>
-            <Link to='about' className='footerLink about1'>PARG DEVELOPERS</Link>
+            <Link to='about' className='footerLink about1'>AG DEVELOPERS</Link>
         </div>
         <div className='Footer'>
             <h3>Contact</h3>
-            <p>E-mail: pargdevelopers@gamil.com</p>
+            <p>E-mail: agdeveloperss@gamil.com</p>
             <p>Mobile:9790665224</p>
         </div>
         <div className='Footer'>
-            <h3>Follow PARG DEVELOPERS</h3>
+            <h3>Follow AG DEVELOPERS</h3>
             <div className='footLogo'>
                 <BiLogoInstagram />
-                <a href="https://www.instagram.com/parg_developers/">Instagram</a>
-            </div>
-            <div className='footLogo'>
-                <RiThreadsFill />
-                <a href="https://www.threads.net/@parg_developers">Threads</a>
+                <a href="https://www.instagram.com/agdevops?igsh=eGM0MGYzcXN6c2Jj">Instagram</a>
             </div>
             <div className='footLogo'>
                 <FaXTwitter />
-                <a href="https://x.com/parg_developers?t=9Z-pMGFdLYEqh2P_LJY9wA&s=08">Twitter</a>
+                <a href="https://x.com/AGdevopss?t=R5FgHL8hB89gtolYMVcvYQ&s=08">Twitter</a>
             </div>
         </div>
     </div>

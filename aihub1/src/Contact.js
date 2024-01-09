@@ -13,10 +13,10 @@ const Contact = ({navigate}) => {
             <div className='contactList'>
                 <p className="aboutContact followContact contactAnimation">
                     <img src={require('./images/gmail-logo.png')}alt='gmail logo' width={10} height={10}px></img>
-                    pargdevelopers@gmail.com</p>
+                    agdeveloperss@gmail.com</p>
                 <p className='aboutContact contactlogo1 followContact contactAnimation'>
                     <img src={require('./images/instagram-logo.jpg')} alt='insta logo' width={10} height={10}px></img>
-                    <a href="https://www.instagram.com/parg_developers/">Instagram</a>
+                    <a href="https://www.instagram.com/agdevops?igsh=eGM0MGYzcXN6c2Jj">Instagram</a>
                 </p>
                 <p className="aboutContact contactlogo2 followContact contactAnimation">
                     <img src={require('./images/whatsapp-logo.png')} alt='whatsapp logo' width={10} height={10}px></img>
